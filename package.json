@@ -1,0 +1,43 @@
+{
+  "name": "discord-media-server",
+  "version": "1.0.8",
+  "description": "Self-hosted Discord bot for scanning and serving information on local media files.",
+  "type": "module",
+  "main": "lib/start.js",
+  "bin": {
+    "discord-media-server": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/start.js",
+    "scan": "node bin/scan.js",
+    "setup": "node bin/setup.js",
+    "reset": "node bin/reset.js",
+    "init": "node bin/index.js init"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "keywords": [
+    "discord",
+    "bot",
+    "media",
+    "movies",
+    "music",
+    "server"
+  ],
+  "author": "Lukedeez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "better-sqlite3": "^11.10.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.9.3"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
