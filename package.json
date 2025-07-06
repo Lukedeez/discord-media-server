@@ -5,18 +5,28 @@
   "type": "module",
   "main": "lib/start.js",
   "bin": {
-    "discord-media-server": "bin/index.js"
+    "discord-media-server": "bin/index.js",
+    "dms": "bin/index.js"
   },
   "scripts": {
-    "start": "node bin/start.js",
-    "scan": "node bin/scan.js",
+    "init": "node bin/index.js init",
     "setup": "node bin/setup.js",
-    "reset": "node bin/reset.js",
-    "init": "node bin/index.js init"
+    "scan": "node bin/scan.js",
+    "start": "node bin/start.js",
+    "reset": "node bin/reset.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lukedeez/discord-media-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lukedeez/discord-media-server/issues"
+  },
+  "homepage": "https://github.com/Lukedeez/discord-media-server#readme",
   "files": [
     "bin/",
-    "lib/"
+    "lib/",
+    "README.md"
   ],
   "keywords": [
     "discord",
