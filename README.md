@@ -46,7 +46,7 @@ You’ll be prompted for:
 - TMDb API key
 
 
-- OR SEPARATELY -
+## - OR SEPARATELY -
 
 
 ### 2. Setup the server (not needed if started init):
