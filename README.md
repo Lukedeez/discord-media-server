@@ -99,16 +99,16 @@ In Discord:
 
 
 Single Movie Command: `.m` or `.movie`
-Args (can be in any order):
-	year: `-y [year]`
+- Args (can be in any order):
+-	year: `-y [year]`
 - `.m [searchTitle]` — Search movies by title returns one movie
 - `.m [searchTitle] -y [year]` — Search more specific using the year and title
 
 
 Multiple Movie Command: `.ml` or `.movie-list`
-Args (can be in any order):
-	year: `-y [year]`
-	limit: `-[limit]` or `-l [limit]`
+- Args (can be in any order):
+-	year: `-y [year]`
+-	limit: `-[limit]` or `-l [limit]`
 - `.ml [searchTerm]` — Search movies by title returns a list
 - `.ml [searchTerm] -y [year] -[limit]` — Search movies by title with year and limit of how many return
 
