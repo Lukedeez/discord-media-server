@@ -1,6 +1,6 @@
 {
   "name": "discord-media-server",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Self-hosted Discord bot for scanning and serving information on local media files.",
   "type": "module",
   "main": "lib/start.js",

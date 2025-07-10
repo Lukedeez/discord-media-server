@@ -38,12 +38,17 @@ npm install -g discord-media-server
 ```bash
 discord-media-server init
 ```
+or (short hand)
+```bash
+dms [init|setup|start|scan|reset]
+```
 
 You’ll be prompted for:
 - Media folder path (e.g., `D:\Movies`)
 - Database type (SQLite or MySQL)
 - Discord bot token
 - TMDb API key
+- Scan media and start server
 
 
 ## - OR SEPARATELY -
